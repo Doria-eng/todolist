@@ -1,12 +1,53 @@
-# React + Vite
+# Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern to-do list application built with React Vite.
 
-Currently, two official plugins are available:
+## Functional Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Add new todo items
+- ✅ Mark todo items as completed
+- 🗑️ Delete todo items
+- 💾 Local storage, data won't be lost after refreshing the page
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- ESLint
+
+## Start using it
+
+### Install dependencies
+
+```bash
+pnpm install
+```
+
+### Development mode
+
+```bash
+pnpm dev
+```
+
+### Build the project
+
+```bash
+pnpm build
+```
+
+## Project structure
+
+```
+src/
+  ├── App.jsx          # App main component
+  ├── NewTodoForm.jsx  # New todo form component
+  ├── TodoItem.jsx     # Todo item component
+  ├── TodoList.jsx     # Todo list component
+  ├── main.jsx        # App entry
+  └── styles.css      # Styles file
+```
+
+## Development environment requirements
+
+- Node.js 18+
+- pnpm 8+
